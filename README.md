@@ -12,7 +12,7 @@ The architecture focuses on three core pillars: **Zero-Trust Security**, **Optim
 ## 🏗️ System Architecture
 A robust hybrid-cloud orchestration leveraging AWS and Azure.
 ![System Architecture](System%20Architecture_%20Home%20Security%20Video%20Pipeline.png)
-![LINE Notification](Push%20Notification%20output%20on%20LINE.jpg)
+![LINE Notification](Push%20Notification%20output%20on%20LINE.png)
 
 1.  **Detection (AWS)**: Surveillance cameras upload motion-triggered MP4 files to an encrypted S3 bucket.
 2.  **Orchestration (Python/Colab)**: A Python-based engine identifies the latest assets and executes cross-cloud data transfer.
