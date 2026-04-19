@@ -12,7 +12,6 @@ The architecture focuses on three core pillars: **Zero-Trust Security**, **Optim
 ## 🏗️ System Architecture
 A robust hybrid-cloud orchestration leveraging AWS and Azure.
 ![System Architecture](System%20Architecture_%20Home%20Security%20Video%20Pipeline.png)
-![LINE Notification](Push%20Notification%20output%20on%20LINE.png)
 
 1.  **Detection (AWS)**: Surveillance cameras upload motion-triggered MP4 files to an encrypted S3 bucket.
 2.  **Orchestration (Python/Colab)**: A Python-based engine identifies the latest assets and executes cross-cloud data transfer.
@@ -33,6 +32,7 @@ I resolved the browser download friction point through metadata manipulation.
 ### 3. Modernization: Migration to Messaging API
 Successfully bypassed the deprecated "LINE Notify" in favor of the more robust **LINE Messaging API**.
 * **Architect’s Perspective**: Prioritized long-term maintainability by adopting industry-standard endpoints.
+<img src="Push%20Notification%20output%20on%20LINE.png" alt="LINE Notification" width="300px">
 
 ## 📂 Future Roadmap
 - [ ] **Event-Driven Execution**: Transitioning to **AWS Lambda** for real-time handling.
