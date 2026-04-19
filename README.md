@@ -32,7 +32,9 @@ I resolved the browser download friction point through metadata manipulation.
 ### 3. Modernization: Migration to Messaging API
 Successfully bypassed the deprecated "LINE Notify" in favor of the more robust **LINE Messaging API**.
 * **Architect’s Perspective**: Prioritized long-term maintainability by adopting industry-standard endpoints.
-<img src="Push%20Notification%20output%20on%20LINE.png" alt="LINE Notification" width="300px">
+<p align="center">
+  <img src="Push%20Notification%20output%20on%20LINE.jpg" width="300px">
+</p>
 
 ## 📂 Future Roadmap
 - [ ] **Event-Driven Execution**: Transitioning to **AWS Lambda** for real-time handling.
