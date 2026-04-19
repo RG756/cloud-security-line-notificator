@@ -33,7 +33,7 @@ I resolved the browser download friction point through metadata manipulation.
 Successfully bypassed the deprecated "LINE Notify" in favor of the more robust **LINE Messaging API**.
 * **Architect’s Perspective**: Prioritized long-term maintainability by adopting industry-standard endpoints.
 <p align="center">
-  <img src="Push%20Notification%20output%20on%20LINE.jpg" width="300px">
+  <img src="Push%20Notification%20output%20on%20LINE.png" width="300px">
 </p>
 
 ## 📂 Future Roadmap
